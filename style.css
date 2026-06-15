@@ -1,0 +1,74 @@
+body {
+    font-family: "barlow";
+  height: 100vh;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 8fr 2fr 2fr;
+  grid-template-rows: 2fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 50px;
+ 
+  background-color: #ecf2f8;
+}
+.daniel {
+  grid-column: 1/3;
+  background-color: #7541c8;
+  border-radius: 10px;
+  padding: 24px 32px 32px;
+}
+.jonathon {
+  grid-column: 3/4;
+  background-color: #48556a;
+    border-radius: 10px;
+
+}
+.kira {
+   grid-column: 4/5;
+  grid-row: 1/3;
+  background-color: white;
+    border-radius: 10px;
+
+}
+.jeanette {
+ grid-column: 1/2;
+ background-color: white;
+   border-radius: 10px;
+
+}
+.patrick {
+ grid-column: 2/4;
+ background-color: #19212e;
+   border-radius: 10px;
+
+}
+.d-prof {
+    display: flex;
+    /* padding-left: 30px;
+    padding-top: 20px; */
+    align-items: center;
+}
+.d-prof img {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+
+}
+.d-prof1 h2,span {
+    line-height: 14px;
+    font-size: 13px;
+    padding-left: 10px;
+}
+.p1 {
+    color: white;
+    font-size: 20px;
+    margin: 20px 0px 32px;
+    width: 600px;
+    height: 88px;
+}
+.p2 {
+    color: #cfcfcf;
+    font-size: 13px;
+    width: 600px;
+    height: 127px;
+}
